@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 style sheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Your style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Assignment 4</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center display-2 fw-bold mt-3">Local Storage Page</h1>
+
+                <p class="mt-3">This is a page dedicated to working with local storage. Everything done will be saved & remembered for reuse when this page is not open.</p>
+            </div>
+
+            <div class="col-4 mt-3 text-center">
+                <label for="myForm">Choose a color: </label>
+                <form id="myForm">
+                    <input type="color" id="color">
+                    <br>
+                    <input type="submit" value="Save my Color">
+                </form>
+            </div>
+            <div class="col-4 mt-3 text-center">
+                <form id="imageForm">
+                    <label for="image">Image</label>
+                    <br>
+                    <select name="image" id="image">
+                        <option hidden disabled selected value> -- select an image -- </option>
+                        <option value="knight">Knight</option>
+                        <option value="dragon">Dragon</option>
+                        <option value="ghost">Ghost</option>
+                        <option value="viking">Viking</option>
+                        <option value="samurai">Samurai</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Save my Image">
+                </form>
+            </div>
+
+            <div class="col-4 mt-3 text-center">
+                <form id="wordForm">
+                    <label for="word">First Name</label>
+                    <br>
+                    <input type="text" name="word" id="word">
+                    <br>
+                    <input type="submit" value="Save my Word">
+                </form>
+            </div>
+
+            <div class="row">
+                <div class="col-6 img-fluid align-self-center mt-3">
+                    <h3 class="text-center">Image</h3>
+                    <img id="imageSpot" class="justify-content-center align-items-center shadow" src="https://images.unsplash.com/photo-1521291668714-23cb608c52f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="imageSpot">
+                </div>
+
+                <div class="col-6 container-fluid align-self-center mt-3">
+
+                    <h3 class="text-center">Word</h3>
+                    <h3 id="wordSpot"></h3>
+                </div>
+            </div>
+            <div class="col-12 text-center mt-4">
+                <footer>
+                    <p id="footer">Copyright &copy; 2021 by Luke Maddison </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+
+</html>

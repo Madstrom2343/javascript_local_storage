@@ -1,0 +1,16 @@
+#imageSpot {
+    width: auto;
+    height: 600px;
+}
+
+.col-4 {
+    background: rgba(136, 126, 126, 0.24);
+    border-radius: 40px;
+}
+
+#footer {
+    background: rgba(136, 126, 126, 0.24);
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
